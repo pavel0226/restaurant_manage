@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Home_padding {
+  margin: 0px 140px;
+  height: 100;
+}
+.appbar-main {
+  height: 50px !important;
+  background: linear-gradient(45deg, #08e103, #071d61);
+  font-weight: bold;
+  font-size: 80px;
+  width: auto;
+  /* padding: 8px 0px; */
+}
+#li {
+  text-decoration: none;
+  width: 180px;
+  background: linear-gradient(45deg, #08e103, #071d61);
+  color: #fff;
+  list-style: none;
+  padding: 1.2rem;
+  margin: 3px 0px;
+}
+#but {
+  background: linear-gradient(45deg, #08e103, #071d61);
+  font-weight: bold;
+}
+.user-name {
+  color: white;
+  font-weight: bold;
+}
+#logo {
+  height: 30px !important;
+  opacity: 0;
+}
+#carouselExampleIndicators {
+  height: 100px;
+}
+#im {
+  width: 850;
+  height: 300;
+  margin: "0 auto";
+}
+.userCard {
+  height: auto;
+  transition: 2s ease-in-out;
+}
+.marginGrid {
+  margin: 0px 10px;
+}
+image :hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+}
+.butPosition {
+  width: 90px !important;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+#pushable-sidebar {
+  height: 100%;
+  width: auto;
+}
+.drawer {
+  font-size: 1px !important;
+}
+
+@media only screen and (max-with: 600px) {
+  .drawer {
+    display: flex !important;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 1px;
+  }
+}

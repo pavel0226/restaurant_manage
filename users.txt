@@ -1,0 +1,58 @@
+mutation{
+  register(
+    registerInput:{
+      username:"vedangparasnis",
+      password:"andrew1234",
+      consfirmPassword:"andrew12343",
+      email:"aandrewjason@gmail.com"
+    }
+  ){
+    id,
+    email,
+    token,
+    username,
+    createdAt,
+  }
+}
+mutation{
+  register(
+    registerInput:{
+      username:"henry",
+      password:"henry123",
+      consfirmPassword:"henry123",
+      email:"henrysmith@abc.com"
+    }
+  ){
+    id,
+    email,
+    token,
+    username,
+    createdAt,
+  }
+}
+
+mutation{
+  register(
+    registerInput:{
+      username:"sarh",
+      password:"sarah1234",
+      consfirmPassword:"sarah1234",
+      email:"sarah@abc.com"
+    }
+  ){
+    id,
+    email,
+    token,
+    username,
+    createdAt,
+  }
+}
+
+window.href.location = history itempush of current window = sindow.open('',_self)
+
+navbar does not inherit parent router dom so require window object
+
+
+//user with us
+//data.json
+//menu.js component
